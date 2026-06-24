@@ -1,0 +1,83 @@
+{
+  "raw_shape": [
+    3495959,
+    22
+  ],
+  "cleaned_long_shape": [
+    3495959,
+    30
+  ],
+  "cleaned_wide_shape": [
+    409427,
+    34
+  ],
+  "dropped_columns": [
+    "vws_m_s (100% missing)",
+    "timestamp (redundant with datetime)"
+  ],
+  "date_range": [
+    "2024-01-01 00:00:00+00:00",
+    "2025-12-31 23:45:00+00:00"
+  ],
+  "stations": [
+    "Alipur, Delhi - DPCC",
+    "Anand Vihar, Delhi - DPCC",
+    "Ashok Vihar, Delhi - DPCC",
+    "Aya Nagar, Delhi - IMD",
+    "Bawana, Delhi - DPCC",
+    "Burari Crossing, Delhi - IMD"
+  ],
+  "pollutants": [
+    "benzene",
+    "co",
+    "eth_benzene",
+    "mp_xylene",
+    "nh3",
+    "no",
+    "no2",
+    "ozone",
+    "pm10",
+    "pm25",
+    "so2",
+    "toluene",
+    "xylene"
+  ],
+  "missing_before": {
+    "at_c": 840567,
+    "rh_percent": 840055,
+    "ws_m_s": 1623487,
+    "wd_deg": 864255,
+    "rf_mm": 1432212,
+    "sr_w_mt2": 841669,
+    "bp_mmhg": 840352
+  },
+  "missing_after": {
+    "at_c": 832943,
+    "rh_percent": 832943,
+    "ws_m_s": 1559974,
+    "wd_deg": 832943,
+    "rf_mm": 1427765,
+    "sr_w_mt2": 832943,
+    "bp_mmhg": 832943
+  },
+  "outlier_pct_by_pollutant": {
+    "benzene": 8.33,
+    "co": 5.88,
+    "eth_benzene": 9.98,
+    "mp_xylene": 11.4,
+    "nh3": 2.4,
+    "no": 12.32,
+    "no2": 4.92,
+    "ozone": 6.39,
+    "pm10": 3.3,
+    "pm25": 5.38,
+    "so2": 4.83,
+    "toluene": 10.36,
+    "xylene": 13.62
+  },
+  "total_outliers_flagged": 228905,
+  "stations_without_weather_sensors": [
+    "Aya Nagar, Delhi - IMD",
+    "Burari Crossing, Delhi - IMD"
+  ]
+}
